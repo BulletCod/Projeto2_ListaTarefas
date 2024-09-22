@@ -1,0 +1,9 @@
+<mat-card>
+  <mat-form-field appearance="fill">
+    <mat-label>Nova Tarefa</mat-label>
+    <input matInput [(ngModel)]="newTaskDescription" />  
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="addTask()">
+    Adicionar
+  </button>
+</mat-card>

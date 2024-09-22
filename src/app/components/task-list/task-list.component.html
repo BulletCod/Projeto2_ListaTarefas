@@ -1,0 +1,7 @@
+<app-task-form (taskAdded)="addTask($event)"></app-task-form>
+<mat-list>
+  <mat-list-item *ngFor="let task of tasks">
+    <mat-checkbox [(ngModel)]="task.completed" (change)="toggleCompleted(task)"></mat-checkbox>
+    {{ task.description }}
+  </mat-list-item>
+</mat-list>
