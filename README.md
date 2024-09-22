@@ -1,4 +1,9 @@
 # ListaDeTarefas
+Atividade referente ao projeto 02. O projeto é desenvolvido a fim de registrar atividades diarias com a opção de checkout para atividades concluidas. 
+As tecnologias utilizadas foram JavaScript, HTML, CSS, Typescript e Angular.
+As melhorias que são possíveis de ser adicionadas são a opção de poder excluir a tarefa concluida semprecisas apagar no Json
+colocar informação de horario para inicio termino da tarefa, grafico de conclusão de tarefas durante a semana ou mês e melhorias de interface.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
 
